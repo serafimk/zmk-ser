@@ -114,6 +114,7 @@ TCOMBO(DEL,    &kp DEL,    &none,         &kp LC(DEL), &none,         TLR BLR,  
 TCOMBO(ESC,    &kp ESC,    &none,         &kp N1,      &none,         TLM BLM,     TRM BRM)
 TCOMBO(TAB,    &kp TAB,    &kp LA(TAB),   &kp LC(TAB), &none,         TLP BLP,     TRP BRP)
 TCOMBO(ENTER,  &kp ENTER,  &kp LS(ENTER), &none,       &none,         TLI BLI,     TRI BRI)
-TCOMBO(boot,   &none,      &bt BT_CLR,    &none,       &bootloader,   TLP TLR TLM TLI,     TRP TRR TRM TRI)
+TCOMBO(boot,   &none,      &none,  &ext_power EP_OFF,  &bootloader,   TLP TLR TLM TLI,     TRP TRR TRM TRI)
+TCOMBO(BT,     &bt BT_SEL 0,&bt BT_SEL 1,  &bt BT_SEL 2,&bt BT_CLR,    BLP BLR BLM BLI,    BRP BRR BRM BRI)
 
 
