@@ -47,6 +47,8 @@
 
 
 / {
+
+/*
   combos {
     compatible = "zmk,combos";
     //#include "chords.dtsi"
@@ -57,6 +59,7 @@
       bindings = <&kp ESC>;
     };
   };
+*/
 
   keymap {
     compatible = "zmk,keymap";

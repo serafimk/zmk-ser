@@ -14,7 +14,7 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: PNCATEHO
+    shield: PNCATEHO_left
   # - board: nice_nano_v2
   #    shield: PNCATEHO_left
   #  - board: nice_nano_v2
