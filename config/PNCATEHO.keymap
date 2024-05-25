@@ -6,48 +6,34 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-
-
 
 &lt { quick_tap_ms = <200>; };
+
 &mt { quick_tap_ms = <200>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        SYM_N {
+            bindings = <&kp N>;
+            key-positions = <7 9>;
+        };
+
+        SYM_T {
+            bindings = <&kp T>;
+            key-positions = <6 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-           label = "default";
-           bindings = <
-            &kp K_VOLUME_UP   &kp K_CUT &kp K_COPY &kp K_PASTE
-            &kp K_VOLUME_DOWN &none     &none      &none
-                                                   &mo 1 &mo 2
-            >;
-        };
-
-        lower_layer {
-            label = "lower";
+        layer_0 {
             bindings = <
-            &kp LS(LG(N4))  &kp LS(LC(LG(N4)))  &kp LS(LG(N5)) &none
-            &none           &none               &none          &none
-            &trans &mo 3
-            >;
-        };
-        raise_layer {
-            label = "raise";
-            bindings = <
-            &kp K_PLAY_PAUSE &kp K_NEXT &kp K_PREVIOUS &none
-            &none            &none      &none          &none
-            &mo 3 &trans
-            >;
-        };
-        adjust_layer {
-            label = "adjust";
-            bindings = <
-            &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
-            &none       &none         &none         &none
-            &none &none
+&kp N0  &kp N1  &kp N2  &none
+&kp F   &kp C   &kp B   &kp H
+                        &kp BSPC  &kp SPACE
             >;
         };
     };
