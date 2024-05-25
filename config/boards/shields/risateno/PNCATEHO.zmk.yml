@@ -3,6 +3,6 @@ id: PNCATEHO
 name: PNCATEHO 
 type: shield
 url: https://github.com/aroum/PNCATEHO
-requires: [seeeduino_xiao_ble]
+requires: [pro_micro]
 features:
   - keys
