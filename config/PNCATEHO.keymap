@@ -259,12 +259,12 @@
             bindings = <&kp RBKT>;
             key-positions = <1 2 9>;
         };
-
+/*
 	SYM_SEMI {
             bindings = <&kp SEMI>;
             key-positions = <0 2 9>;
         };
-
+*/
 	SYM_LBKT {
             bindings = <&kp LBKT>;
             key-positions = <0 1 9>;
