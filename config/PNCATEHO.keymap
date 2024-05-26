@@ -225,12 +225,12 @@
             key-positions = <1 2>;
         };
 
-	SYM_A {
+	SYM_ALT {
             bindings = <&kt LALT>;
             key-positions = <0 2>;
         };
 
-	SYM_A {
+	SYM_CTRL {
             bindings = <&kt LCTRL>;
             key-positions = <0 1>;
         };
