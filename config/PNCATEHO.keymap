@@ -15,14 +15,299 @@
     combos {
         compatible = "zmk,combos";
 
-        SYM_N {
-            bindings = <&kp N>;
+	SYM_D {
+            bindings = <&kp D>;
+            key-positions = <6 7>;
+        };
+
+	SYM_K {
+            bindings = <&kp K>;
+            key-positions = <5 7>;
+        };
+
+	SYM_R {
+            bindings = <&kp R>;
+            key-positions = <5 6>;
+        };
+
+	SYM_V {
+            bindings = <&kp V>;
+            key-positions = <4 7>;
+        };
+
+	SYM_L {
+            bindings = <&kp L>;
+            key-positions = <4 6>;
+        };
+
+	SYM_G {
+            bindings = <&kp G>;
+            key-positions = <4 5>;
+        };
+
+	SYM_E {
+            bindings = <&kp E>;
+            key-positions = <5 6 7>;
+        };
+
+	SYM_Z {
+            bindings = <&kp Z>;
+            key-positions = <4 6 7>;
+        };
+
+	SYM_S {
+            bindings = <&kp S>;
+            key-positions = <4 5 7>;
+        };
+
+	SYM_M {
+            bindings = <&kp M>;
+            key-positions = <4 5 6>;
+        };
+
+	SYM_U {
+            bindings = <&kp U>;
+            key-positions = <4 5 6 7>;
+        };
+
+	SYM_J {
+            bindings = <&kp J>;
             key-positions = <7 9>;
         };
 
-        SYM_T {
-            bindings = <&kp T>;
+	SYM_Y {
+            bindings = <&kp Y>;
             key-positions = <6 9>;
+        };
+
+	SYM_T {
+            bindings = <&kp T>;
+            key-positions = <5 9>;
+        };
+
+	SYM_N {
+            bindings = <&kp N>;
+            key-positions = <4 9>;
+        };
+
+	SYM_DOT {
+            bindings = <&kp DOT>;
+            key-positions = <6 7 9>;
+        };
+
+	SYM_SEMI {
+            bindings = <&kp T>;
+            key-positions = <5 7 9>;
+        };
+
+	SYM_COM {
+            bindings = <&kp COMMA>;
+            key-positions = <5 6 9>;
+        };
+
+	SYM_P {
+            bindings = <&kp P>;
+            key-positions = <4 7 9>;
+        };
+
+	SYM_Q {
+            bindings = <&kp Q>;
+            key-positions = <4 6 9>;
+        };
+
+	SYM_X {
+            bindings = <&kp X>;
+            key-positions = <4 5 9>;
+        };
+
+	SYM_I {
+            bindings = <&kp I>;
+            key-positions = <5 6 7 9>;
+        };
+
+	SYM_W {
+            bindings = <&kp W>;
+            key-positions = <4 6 7 9>;
+        };
+
+	SYM_O {
+            bindings = <&kp O>;
+            key-positions = <4 5 7 9>;
+        };
+
+	SYM_SQT {
+            bindings = <&kp SQT>;
+            key-positions = <4 5 6 9>;
+        };
+
+	SYM_A {
+            bindings = <&kp A>;
+            key-positions = <4 5 6 7 9>;
+        };
+
+	SYM_RIGHT {
+            bindings = <&kp RIGHT>;
+            key-positions = <7 8>;
+        };
+
+	SYM_UP {
+            bindings = <&kp UP>;
+            key-positions = <6 8>;
+        };
+
+	SYM_DOWN {
+            bindings = <&kp DOWN>;
+            key-positions = <5 8>;
+        };
+
+	SYM_LEFT {
+            bindings = <&kp LEFT>;
+            key-positions = <4 8>;
+        };
+
+	SYM_RET {
+            bindings = <&kp RET>;
+            key-positions = <6 7 8>;
+        };
+
+	SYM_PGUP {
+            bindings = <&kp PG_UP>;
+            key-positions = <5 7 8>;
+        };
+
+	SYM_PGDN {
+            bindings = <&kp PG_DN>;
+            key-positions = <5 6 8>;
+        };
+
+	SYM_HOME {
+            bindings = <&kp HOME>;
+            key-positions = <4 7 8>;
+        };
+
+	SYM_END {
+            bindings = <&kp END>;
+            key-positions = <4 6 8>;
+        };
+
+	SYM_CAPS {
+            bindings = <&kp CAPS>;
+            key-positions = <4 5 8>;
+        };
+
+	SYM_TAB {
+            bindings = <&kp TAB>;
+            key-positions = <5 6 7 8>;
+        };
+
+	SYM_DEL {
+            bindings = <&kp DEL>;
+            key-positions = <4 6 7 8>;
+        };
+/*
+	SYM_? {
+            bindings = <&kp A>;
+            key-positions = <4 5 7 8>;
+        };
+*/
+	SYM_GUI {
+            bindings = <&kt LGUI>;
+            key-positions = <4 5 6 8>;
+        };
+
+	SYM_ESC {
+            bindings = <&kp ESC>;
+            key-positions = <4 5 6 7 8>;
+        };
+
+	SYM_SHIFT {
+            bindings = <&kt LSHIFT>;
+            key-positions = <1 2>;
+        };
+
+	SYM_A {
+            bindings = <&kt LALT>;
+            key-positions = <0 2>;
+        };
+
+	SYM_A {
+            bindings = <&kt LCTRL>;
+            key-positions = <0 1>;
+        };
+
+	SYM_N0 {
+            bindings = <&kp N0>;
+            key-positions = <0 1 2>;
+        };
+
+	SYM_N6 {
+            bindings = <&kp N6>;
+            key-positions = <2 9>;
+        };
+
+	SYM_N5 {
+            bindings = <&kp N5>;
+            key-positions = <1 9>;
+        };
+
+	SYM_N4 {
+            bindings = <&kp N4>;
+            key-positions = <0 9>;
+        };
+
+	SYM_RBKT {
+            bindings = <&kp RBKT>;
+            key-positions = <1 2 9>;
+        };
+
+	SYM_SEMI {
+            bindings = <&kp SEMI>;
+            key-positions = <0 2 9>;
+        };
+
+	SYM_LBKT {
+            bindings = <&kp LBKT>;
+            key-positions = <0 1 9>;
+        };
+
+	SYM_MINUS {
+            bindings = <&kp MINUS>;
+            key-positions = <0 1 2 9>;
+        };
+
+	SYM_N9 {
+            bindings = <&kp N9>;
+            key-positions = <2 8>;
+        };
+
+	SYM_N8 {
+            bindings = <&kp N8>;
+            key-positions = <1 8>;
+        };
+
+	SYM_N7 {
+            bindings = <&kp N7>;
+            key-positions = <0 8>;
+        };
+
+	SYM_SLASH {
+            bindings = <&kp SLASH>;
+            key-positions = <1 2 8>;
+        };
+
+	SYM_EQUAL {
+            bindings = <&kp EQUAL>;
+            key-positions = <0 2 8>;
+        };
+
+	SYM_BSLH {
+            bindings = <&kp BSLH>;
+            key-positions = <0 1 8>;
+        };
+
+	SYM_GR {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 1 2 8>;
         };
     };
 
@@ -31,7 +316,7 @@
 
         layer_0 {
             bindings = <
-&kp N0  &kp N1  &kp N2  &none
+&kp N1  &kp N2  &kp N3  &none
 &kp F   &kp C   &kp B   &kp H
                         &kp BSPC  &kp SPACE
             >;
