@@ -317,7 +317,7 @@
         layer_0 {
             bindings = <
 &kp N1  &kp N2  &kp N3  &none
-&kp F   &kp C   &kp B   &kp H
+&kp H   &kp B   &kp C   &kp F
                         &kp BSPC  &kp SPACE
             >;
         };
